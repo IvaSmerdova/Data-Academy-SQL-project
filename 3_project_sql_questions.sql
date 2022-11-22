@@ -99,8 +99,8 @@ ORDER BY price_growth_for_period; --  prům. meziroční nárůst za celé obdob
 /* Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než růst mezd (větší než 10 %)?  */
 	
 
-SELECT * FROM v_iva_smerdova_projekt_avg_wages_growth;
-SELECT * FROM v_iva_smerdova_projekt_avg_price_growth; 
+SELECT * FROM v_iva_smerdova_project_avg_wages_growth;
+SELECT * FROM v_iva_smerdova_project_avg_price_growth; 
 
 SELECT
 	payroll_year,
